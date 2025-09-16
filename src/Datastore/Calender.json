@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Client Meeting",
+    "calendar": "Matt Jones work calendar",
+    "status": "active",
+    "start": "2025-08-20T10:00:00",
+    "end": "2025-08-20T11:00:00",
+    "duration": 60,
+    "description": "Discuss project requirements",
+    "meetLink": "https://meet.google.com/abc-defg-hij",
+    "attendees": ["client@example.com", "team@example.com"]
+  },
+  {
+    "id": 2,
+    "title": "Internal Review",
+    "calendar": "Ankit Sureka Personal Calendar",
+    "status": "active",
+    "start": "2025-08-21T14:00:00",
+    "end": "2025-08-21T15:00:00",
+    "duration": 60,
+    "description": "Weekly internal review meeting",
+    "meetLink": "https://meet.google.com/xyz-uvw-lmn",
+    "attendees": ["ankit@example.com", "manager@example.com"]
+  },
+  {
+    "id": 3,
+    "title": "Cancelled Meeting",
+    "calendar": "Matt Jones work calendar",
+    "status": "cancelled",
+    "start": "2025-08-22T09:00:00",
+    "end": "2025-08-22T10:00:00",
+    "duration": 60,
+    "description": "This meeting was cancelled",
+    "meetLink": "https://meet.google.com/zzz-yyy-xxx",
+    "attendees": ["client@example.com"]
+  },
+  {
+    "id": 4,
+    "title": "Project Kickoff",
+    "calendar": "Ankit Sureka Personal Calendar",
+    "status": "active",
+    "start": "2025-08-23T11:00:00",
+    "end": "2025-08-23T12:30:00",
+    "duration": 90,
+    "description": "Kickoff for the new marketing project",
+    "meetLink": "https://meet.google.com/aaa-bbb-ccc",
+    "attendees": ["team@example.com", "marketing@example.com"]
+  }
+]

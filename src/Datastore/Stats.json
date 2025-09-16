@@ -1,0 +1,57 @@
+
+{
+  "coreMetrics": {
+    "totalLeads": 12450,
+    "hotLeads": 3200,
+    "convertedLeads": 7800,
+    "lostDeals": 1500,
+    "revenueGenerated": 1250000,
+    "conversionRate": 31.8
+  },
+  "leadStats": {
+    "leadsByStatus": {
+      "new": 2500,
+      "contacted": 3700,
+      "inProgress": 2350,
+      "converted": 7800,
+      "lost": 1500
+    },
+    "leadsBySource": {
+      "googleAds": 3600,
+      "facebook": 2800,
+      "referral": 1300,
+      "website": 3800,
+      "manual": 950
+    }
+  },
+  "salesInsights": {
+    "salesTrend": [
+      {"month": "Jan", "revenue": 100000},
+      {"month": "Feb", "revenue": 120000},
+      {"month": "Mar", "revenue": 150000},
+      {"month": "Apr", "revenue": 130000},
+      {"month": "May", "revenue": 200000},
+      {"month": "Jun", "revenue": 180000},
+      {"month": "Jul", "revenue": 210000},
+      {"month": "Aug", "revenue": 220000},
+      {"month": "Sep", "revenue": 240000},
+      {"month": "Oct", "revenue": 230000},
+      {"month": "Nov", "revenue": 250000},
+      {"month": "Dec", "revenue": 270000}
+    ],
+    "pipelineValueByStage": {
+      "proposal": 500000,
+      "negotiation": 300000,
+      "closed": 1250000
+    }
+  },
+  "activityOverview": {
+    "appointmentsScheduled": 450,
+    "activityCount": {
+      "calls": 1200,
+      "emails": 2000,
+      "followUps": 750
+    }
+  }
+}
+

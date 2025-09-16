@@ -1,0 +1,67 @@
+@import "tailwindcss";
+:root {
+  --primary-color: #1e3a8a;         /* Dark blue */
+  --primary-light: #3b82f6;         /* Bright blue */
+  --primary-dark: #1e40af;          /* Navy */
+  --accent-color: #e0f2fe;          /* Light blue background */
+  --text-color: #1e293b;            /* Slate gray */
+  --text-light: #64748b;            /* Light gray */
+  --bg-color: #f8fafc;              /* Light dashboard background */
+  --card-bg: #ffffff;
+  --border-color: #dbeafe;
+}
+*{
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Global Scrollbar Styles */
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 1px; /* width of vertical scrollbar */
+  height: 1px; /* height of horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* track color */
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3b82f6; /* thumb color */
+  border-radius: 1px;
+  border: 1px solid #f1f1f1; /* space around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2563eb; /* hover color */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin; /* auto | thin | none */
+  scrollbar-color: #3b82f6 #f1f1f1; /* thumb color track color */
+}
+
+/* Optional: apply smooth scrolling globally */
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
